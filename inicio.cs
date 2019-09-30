@@ -10,12 +10,19 @@ using System.Windows.Forms;
 
 namespace SimuladorDeProcesos
 {
-    public partial class Form1 : Form
+    public partial class inicio : Form
     {
         
-        public Form1()
+        public inicio()
         {
             InitializeComponent();
         }
+
+        private void inicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
